@@ -1,0 +1,92 @@
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    width: 350px;
+    height:30px;
+}
+.chec{
+    width: 20px;
+}
+.button{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: rgb(51, 194, 51);
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    padding: 10px 0px;
+}
+a{
+    text-decoration: none;
+    color: rgb(10, 10, 107);
+    font-size: 20px;
+}
+h2,h4,p{
+    color: snow;
+}
+h2{
+    font-size: 38px;
+    letter-spacing: 3px;
+    
+}
+h4{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+}
+label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: snow;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 0px;;
+    width: 100%;
+
+
+}
+.header a{
+    margin: 0px 8px;
+    border: 2px solid rgb(40, 167, 40);
+    padding: 10px 20px;
+}
+.header h2{
+    color:black;
+    margin: 0px 8px;
+    font-size: 25px;
+}
+.header a:hover{
+    background:rgb(40, 167, 40) ;
+    color: snow;
+}
+textarea{
+    width: 100%;
+    
+}
